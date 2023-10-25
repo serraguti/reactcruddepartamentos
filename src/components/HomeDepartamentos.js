@@ -57,6 +57,14 @@ to={"/details/" + departamento.numero
 + "/" + departamento.nombre + "/" + departamento.localidad}>
                                                 Details
                                             </NavLink>
+<NavLink className="btn btn-danger"                                            
+to={"/delete/" + departamento.numero}>
+    Delete
+</NavLink>
+<NavLink className="btn btn-info"
+to={"/update/" + departamento.numero}>
+    Update
+</NavLink>
                                         </td>
                                     </tr>)    
                                 })
